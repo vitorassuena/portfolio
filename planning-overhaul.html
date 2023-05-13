@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Vitor Assuena</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <!-- <div class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 200px;"></div> -->
+    <div class="banner">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">Vehicle Planning Overhaul</h2>
+            <p class="text">
+              Planning the correct amount and type of cargo vehicles is one of the most important tasks in a logistics company, and doing so in a timely manner is even more important. This project aimed to <span class="text-bold">completely optimize</span> this proccess and allow the analysts to plan different scenarios in minutes.
+              <br>Tools:
+              <span class="badge badge-pill badge-primary">Python</span> <span class="badge badge-pill badge-success">SQL</span> <span class="badge badge-pill badge-warning">Streamlit</span>
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text Only-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>Problem description</h2>
+            <hr>
+            <p class="text">
+              The Vehicle Planning team faced a significant challenge in determining the optimal quantity and type of vehicles to allocate to each facility. This process consumed an entire day every week for each analyst, who manually analyzed historical data and client forecasts to create individual routes. 
+            </p>
+            <p>
+              With over 1,500 routes per week, this manual process was time-consuming and prone to errors. The team needed a solution that could automate the vehicle allocation process, account for various constraints, and seamlessly integrate with their internal transport planner system.
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>Features</h2>
+            <hr>
+            <ol>
+              <li><p class="text add-top-margin">Data Ingestion: The project leveraged historical data from the company's database and client forecasts stored in spreadsheets. By automating the data ingestion process, analysts were relieved from manually extracting and organizing data.</p></li>
+              <li><p class="text add-top-margin">Calculation Engine: The script incorporated a robust calculation engine that determined the appropriate vehicle type and quantity for each facility. It considered multiple factors such as historical demand, client forecasts, facility-specific restrictions (e.g., vehicle type per facility), and day of the week requirements.</p></li>
+              <li><p class="text add-top-margin">Route Spreadsheet Generation: The Python project generated a comprehensive spreadsheet where each row represented a different route. This spreadsheet encompassed all the necessary details, including origin, destination, vehicle type, and quantity. The automated generation eliminated the need for analysts to manually create each route, saving significant time and reducing human errors.</p></li>
+              <li><p class="text add-top-margin">API Integration: The project seamlessly integrated with the company's internal transport planner system via an API. The generated route spreadsheet was automatically imported into the system, further streamlining the planning process. This integration eliminated the tedious task of manually inputting each route into the system, resulting in substantial time savings.</p></li>
+            </ol>
+
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-column">
+              <h2>Key Results</h2>
+              <hr>
+              <ol>
+                <li><p class="text add-top-margin">Time Savings: The automated solution saved over 6 hours weekly for each analyst, who previously dedicated their entire Friday to the vehicle planning process. This time could now be utilized for other value-added tasks, enhancing overall productivity.</p></li>
+                <li><p class="text add-top-margin">Increased Accuracy: By eliminating manual data manipulation and route creation, the project significantly reduced human errors. The automated calculation engine ensured consistent and accurate allocation of vehicles, optimizing the logistics operations.</p></li>
+                <li><p class="text add-top-margin">Scalability: The Python project successfully handled over 1,500 routes per week, accommodating the growing demands of the organization. As the company expanded, the solution remained scalable and adaptable to changing requirements.</p></li>
+                <li><p class="text add-top-margin">Streamlined Scenario Analysis: The Python project enabled effortless creation and analysis of different scenarios, optimizing vehicle allocation during peak demand. This streamlined process facilitated quick decision-making, ensuring efficient resource utilization and timely deliveries for clients.</p></li>
+              </ol>
+            </div> 
+          </div>    
+          <div class="flex-row">
+            <div class="flex-item flex-column">
+              <h2>Conclusion</h2>
+              <hr>
+              <p class="text">
+                By leveraging Python's flexibility and powerful libraries, this logistics unicorn successfully transformed its vehicle planning process. The automated solution not only saved valuable time for analysts but also improved accuracy and scalability.
+              </p>
+              <p>
+                By ingesting data, performing complex calculations, and generating route spreadsheets, the project streamlined operations and integrated seamlessly with the company's internal systems. With this successful implementation, the logistics unicorn can focus on further enhancing its services and meeting the ever-increasing demands of its clients.
+              </p>
+            </div> 
+          </div>                 
+        </div>    
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
